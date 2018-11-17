@@ -1,0 +1,121 @@
+[
+  {
+    "productId": 1,
+    "productName": "Cafe",
+    "productSize": "U",
+    "productPrice": 10,
+    "productOwner": "Ana"
+  },
+  {
+    "productId": 2,
+    "productName": "Cafe + pan",
+    "productSize": "U",
+    "productPrice": 16,
+    "productOwner": "Ana"
+  },
+  {
+    "productId": 3,
+    "productName": "Cafe + 2 panes",
+    "productSize": "U",
+    "productPrice": 22,
+    "productOwner": "Ana"
+  },
+  {
+    "productId": 4,
+    "productName": "Pan",
+    "productSize": "U",
+    "productPrice": 6,
+    "productOwner": "Ana"
+  },
+  {
+    "productId": 5,
+    "productName": "Birote",
+    "productSize": "U",
+    "productPrice": 5,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 6,
+    "productName": "Taco",
+    "productSize": "G",
+    "productPrice": 10,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 7,
+    "productName": "Taco",
+    "productSize": "C",
+    "productPrice": 6,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 8,
+    "productName": "Boing",
+    "productSize": "Lata",
+    "productPrice": 10,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 9,
+    "productName": "Coca-Cola",
+    "productSize": "600 ml",
+    "productPrice": 15,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 10,
+    "productName": "Refresco",
+    "productSize": "600 ml",
+    "productPrice": 15,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 11,
+    "productName": "Cigarro",
+    "productSize": "Bere",
+    "productPrice": 5,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 12,
+    "productName": "Cigarro",
+    "productSize": "Ana",
+    "productPrice": 5,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 13,
+    "productName": "Cigarro",
+    "productSize": "Clau",
+    "productPrice": 5,
+    "productOwner": "Clau"
+  },
+  {
+    "productId": 14,
+    "productName": "Chicle",
+    "productSize": "U",
+    "productPrice": 2,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 15,
+    "productName": "Chicles",
+    "productSize": "Tres",
+    "productPrice": 5,
+    "productOwner": "Bere"
+  },
+  {
+    "productId": 16,
+    "productName": "Cuchara tam",
+    "productSize": "U",
+    "productPrice": 2.5,
+    "productOwner": "Ana"
+  },
+  {
+    "productId": 17,
+    "productName": "Cuchara mango",
+    "productSize": "U",
+    "productPrice": 2.5,
+    "productOwner": "Bere"
+  }
+]

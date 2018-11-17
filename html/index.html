@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/srbionico.css">
+
+    <title>Bionicos y Salchipulpos Tlajomulco</title>
+  </head>
+  <body>
+        <section class="cover container-fluid" id="selector">
+          <div class="row app">
+            <button id="srbionico" type="button" class="btn btn-primary btn-lg btn-block app">Sr Bionico</button>
+          </div>
+          <div class="row app">
+            <button id="srcafe" type="button" class="btn btn-primary btn-lg btn-block app">Sr Cafe</button>
+          </div>
+          <div class="row app">
+            <button id='clearPedido' type='button' class='btn btn-warning btn-lg btn-block app'>Borrar Pedido</button>
+          </div>
+          
+        </section>
+        
+    </div>
+  </body>
+  <script src="js/jquery.min.js"></script>
+  <!--<script src="js/popper.min.js"></script>-->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/handlebars.min.js"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/handlebars-intl.min.js"></script>
+  <script src="js/es.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+  var menuTemplate = "<section class='cover container-fluid' id='products'> <div id='items' class='row'> </div></section> <div id='footer' class='footer container-fluid'> <div id='pedido' class='pedido row'> </div><div class='total row'> <h4><span id='total' class='label label-default'>0.00</span> </h4></div></div>";
+    $(document).ready(function(){
+     $('button').on("click",function(){
+          if ($(this).attr("id") == "clearPedido"){
+            localStorage.setItem("srbionico", "[]");
+            return;
+          }
+          var url = "js/"+$(this).attr("id") +".json";
+           $.ajax({
+           dataType: "json",
+           url: url,
+           success: function(data){
+             app.products = _.toArray(data);
+             $("body").html(menuTemplate);
+             app.loadMenu();
+           }
+         });
+       });
+    });
+  </script>
+</html>

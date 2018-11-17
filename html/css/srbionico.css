@@ -1,0 +1,50 @@
+html, body {
+  height: 100%; }
+
+.cover {
+  background: #dc3545 url("../img/truck.jpg") bottom center no-repeat;
+  background-size: cover;
+  color: #111111;
+  height: 100%;
+  display: left; }
+
+#cover-caption {
+  width: 100%; }
+
+.cover .box {
+  background-color: aliceblue;
+  border: #929292 solid;
+  border-radius: 5px; }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #264892;
+  color: white;
+  height: 117px; }
+
+.pedido {
+  height: 0%;
+  overflow: auto; }
+
+.total {
+  background-color: #fd4848;
+  height: 100%; }
+
+#pedido {
+  font-size: 20px; }
+
+#items .item:last-child {
+  margin-bottom: 117px; }
+
+button.app {
+  width: 150px;
+  height: 50px;
+  margin: auto auto; }
+
+div.app {
+  width: 100%;
+  text-align: center;
+  height: 33%; }
